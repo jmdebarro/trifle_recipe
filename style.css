@@ -1,0 +1,72 @@
+/* Reset some default margin and padding */
+body, h2, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #ffc107;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.title {
+    background-color: #e91e63;
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+
+.ingredient-section, .instructions-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.day {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+ul, ol {
+    font-size: 18px;
+    list-style-position: inside;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    background-color: #e91e63;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px;
+}
